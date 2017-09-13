@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/login_input_layout_string"
+        android:layout_width="match_parent"
+        android:hint="@string/form_PhoneNumber"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/login_input_PhoneNumber"
+            android:textColor="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/login_input_layout_text"
+        android:layout_width="match_parent"
+        android:hint="@string/form_UserName"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/login_input_Name"
+            android:textColor="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button android:id="@+id/btn_link_signup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_link_signup"
+        android:background="@null"
+        android:layout_marginTop="3dp"
+        android:textColor="@android:color/black"/>
+
+</LinearLayout>

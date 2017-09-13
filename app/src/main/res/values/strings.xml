@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DemoApp</string>
+    <string name="title_activity_track">Map</string>
+    <string name="form_PhoneNumber">Phone Number</string>
+    <string name="btn_link_signup">Register</string>
+    <string name="form_UserName">User Name</string>
+
+</resources>
