@@ -1,0 +1,14 @@
+CREATE TABLE FuelTPList(
+FuelType NVARCHAR(10),
+StationLongitude FLOAT,
+StationLatitude FLOAT,
+StationName NVARCHAR(500),
+City NVARCHAR(500),
+CreateDate DATETIME NOT NULL,
+ModifiedDate DATETIME DEFAULT GETDATE(),
+DeletedDate DATETIME,
+UniqueIdentity UNIQUEIDENTIFIER DEFAULT NEWID(),
+ID INT IDENTITY(1,1) NOT NULL,
+)
+
+
